@@ -1,5 +1,5 @@
 <script lang="ts">
-	import data from "./data.js";
+	import data from "./dashboard-01/data.js";
 	import * as Sidebar from "$lib/components/ui/sidebar/index.js";
 	import AppSidebar from "$lib/components/app-sidebar.svelte";
 	import SiteHeader from "$lib/components/site-header.svelte";
