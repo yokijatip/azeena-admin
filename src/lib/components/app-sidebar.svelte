@@ -94,10 +94,10 @@
                 </Sidebar.Menu>
         </Sidebar.Header>
         <Sidebar.Content>
-                <NavMain items={data.navMain} />
+                <NavMain items={data.navMain} showQuickCreate={true} />
                 <Sidebar.Group>
                         <Sidebar.GroupLabel>Integrations</Sidebar.GroupLabel>
-                        <NavMain items={data.navIntegrations} />
+                        <NavMain items={data.navIntegrations} showQuickCreate={false} />
                 </Sidebar.Group>
                 <NavSecondary items={data.navSecondary} class="mt-auto" />
         </Sidebar.Content>
