@@ -1,6 +1,8 @@
-<h1 class="text-3xl font-bold underline">
-  Hello world!
-</h1>
+<script lang="ts">
+ 	import { Button } from "$lib/components/ui/button/index.js";
+</script>
+
+<Button>Click me</Button>
 
 <style lang="postcss">
   @reference "tailwindcss";
