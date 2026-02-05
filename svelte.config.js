@@ -1,8 +1,13 @@
-import adapter from '@sveltejs/adapter-netlify';
+import adapter from '@sveltejs/adapter-auto';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-    kit:{ adapter: adapter(), alias: { "@/*": "./path/to/lib/*", } }
+    kit: {
+        adapter: adapter(),
+        alias: {
+            "@/*": "./src/lib/*"
+        }
+    }
 };
 
 export default config;

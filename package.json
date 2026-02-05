@@ -46,6 +46,7 @@
 		"zod": "^4.3.6"
 	},
 	"dependencies": {
+		"@sveltejs/adapter-auto": "^7.0.0",
 		"@tailwindcss/vite": "^4.1.18",
 		"tailwindcss": "^4.1.18"
 	}
