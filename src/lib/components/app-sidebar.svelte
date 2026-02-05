@@ -30,23 +30,47 @@
                         },
                         {
                                 title: "Products",
-                                url: "#",
+                                url: "#/products",
                                 icon: ShirtIcon,
+                                items: [
+                                        { title: "All Products", url: "#/products" },
+                                        { title: "Add New Product", url: "#/products/new" },
+                                        { title: "Categories", url: "#/products/categories" },
+                                        { title: "Inventory", url: "#/products/inventory" },
+                                ],
                         },
                         {
                                 title: "Orders",
-                                url: "#",
+                                url: "#/orders",
                                 icon: ShoppingCartIcon,
+                                items: [
+                                        { title: "All Orders", url: "#/orders" },
+                                        { title: "New Order", url: "#/orders/new" },
+                                        { title: "Pending Orders", url: "#/orders/pending" },
+                                        { title: "Completed Orders", url: "#/orders/completed" },
+                                ],
                         },
                         {
                                 title: "Finance",
-                                url: "#",
+                                url: "#/finance",
                                 icon: Receipt2Icon,
+                                items: [
+                                        { title: "Dashboard", url: "#/finance" },
+                                        { title: "Record Expense", url: "#/finance/expenses" },
+                                        { title: "Invoices", url: "#/finance/invoices" },
+                                        { title: "Reports", url: "#/finance/reports" },
+                                        { title: "Income & Expenses", url: "#/finance/income-expenses" },
+                                ],
                         },
                         {
                                 title: "Workers",
-                                url: "#",
+                                url: "#/workers",
                                 icon: UsersIcon,
+                                items: [
+                                        { title: "Team Members", url: "#/workers" },
+                                        { title: "Add Worker", url: "#/workers/new" },
+                                        { title: "Roles & Permissions", url: "#/workers/roles" },
+                                ],
                         },
                 ],
                 navIntegrations: [
